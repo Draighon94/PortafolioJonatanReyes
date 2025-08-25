@@ -1,0 +1,34 @@
+:host {
+  display: block;
+}
+
+.box-info {
+  background-color: #fff;
+  border-radius: 3dvh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  max-width: 50dvh;
+}
+
+.info {
+  text-align: justify;
+}
+
+img {
+  border-radius: 3dvh;
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 4dvh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 2dvh;
+}

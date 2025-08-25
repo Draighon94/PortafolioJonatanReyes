@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+.box-info {
+  background-color: #fff;
+  border-radius: 3dvh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  max-width: max-content;
+}
+
+.info {
+  text-align: justify;
+}

@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.educations {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.education {
+  padding: 20px;
+}

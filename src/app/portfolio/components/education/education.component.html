@@ -1,0 +1,20 @@
+<div class="box-info pb-4">
+  <div class="flex-1 flex items-center gap-20">
+    <img src="{{ image() }}" />
+  </div>
+
+  <p class="title text-blue-800">
+    {{ entity() }}
+  </p>
+  <br />
+  <hr />
+  <br />
+
+  <ul>
+    @for(item of titles(); track item){
+    <li class="mx-5">
+      <p [innerHTML]="item"></p>
+    </li>
+    }
+  </ul>
+</div>

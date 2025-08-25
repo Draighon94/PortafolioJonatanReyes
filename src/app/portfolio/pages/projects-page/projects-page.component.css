@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.project {
+  padding: 20px;
+}

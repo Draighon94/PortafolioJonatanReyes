@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.box-info {
+  background-color: #fff;
+  border-radius: 3dvh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  max-width: max-content;
+}
+
+.title {
+  text-align: center;
+}
+
+img {
+  border-radius: 3dvh;
+  height: 200px;
+  width: 400px;
+  object-fit: scale-down;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: disc;
+}
