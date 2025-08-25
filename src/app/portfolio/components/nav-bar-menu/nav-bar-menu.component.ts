@@ -14,6 +14,7 @@ interface NavBarOption {
   styleUrl: './nav-bar-menu.component.css',
 })
 export class NavBarMenuComponent {
+  routeHome = '**';
   navBarOptions: NavBarOption[] = [
     {
       icon: 'fa-solid fa-magnifying-glass',
